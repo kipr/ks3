@@ -1,9 +1,9 @@
 before_install:
-	- sudo apt-get install gtest
+    - sudo apt-get install gtest
 
 before_script:
-	- cmake -Dtest=ON .
+    - cmake -Dtest=ON .
 
 script:
-	- make
-	- make test
+    - make
+    - make test
