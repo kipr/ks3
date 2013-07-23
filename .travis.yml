@@ -1,5 +1,7 @@
 before_install:
-    - sudo apt-get install gtest
+    - sudo apt-add-repository ppa:ubuntu-sdk-team/ppa
+    - sudo apt-get update
+    - sudo apt-get install libgtest-dev qt5-default
 
 before_script:
     - cmake -Dtest=ON .
