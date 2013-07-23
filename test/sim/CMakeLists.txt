@@ -1,0 +1,1 @@
+define_test(vec3 ${CMAKE_CURRENT_SOURCE_DIR}/vec3.cpp)
